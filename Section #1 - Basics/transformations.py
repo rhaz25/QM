@@ -39,7 +39,7 @@ rotated_rotated = rotate(img, -90)
 cv.imshow('Rotated Rotated', rotated_rotated)
 
 # Resizing
-resized = cv.resize(img, (500,500), interpolation=cv.INTER_CUBIC)
+resized = cv.resize(img, (25,25), interpolation=cv.INTER_CUBIC)
 cv.imshow('Resized', resized)
 
 # Flipping
@@ -47,7 +47,7 @@ flip = cv.flip(img, -1)
 cv.imshow('Flip', flip)
 
 # Cropping
-cropped = img[200:400, 300:400]
+cropped = img[100:200, 150:200]
 cv.imshow('Cropped', cropped)
 
 
